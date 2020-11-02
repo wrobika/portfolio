@@ -1,2 +1,2 @@
 ## Portfolio
->[>> Zobacz moje portfolio <<](wrobika.github.io/portfolio)
+>[Zobacz moje portfolio](wrobika.github.io/portfolio)
