@@ -11,7 +11,7 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/product/">
 
   <!-- Bootstrap core CSS -->
-  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <style>
     .bd-placeholder-img {
@@ -30,9 +30,9 @@
     }
   </style>
   <!-- Custom styles for this template -->
-  <link href="../assets/dist/css/product.css" rel="stylesheet">
+  <link href="css/product.css" rel="stylesheet">
 </head>
-<body class="bg-light">
+<body class="green-background">
 <nav class="site-header sticky-top py-1">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
         <a href="index.html" class="py-2" aria-label="Product">
@@ -44,17 +44,15 @@
 <div class="d-md-flex flex-md-equal w-100">
   <div class="text-left overflow-hidden" style="color:#343a40">
     <div class="py-5 px-5">
-      <h2 class="display-5">DynamicMap</h2>
+      <h2 class="display-5">GreenMap</h2>
       <p></p>
-      <p>Dzięki zastosowaniu technik zrównoleglenia i rozproszenia
-        aplikacja umożliwia szybkie generowanie map pokrycia czasowego 
-        uwzględniających aktualną sytuację drogową.</p>
-      <p>Program powstał na potrzeby pracy magisterskiej 
-        „Aplikacja do generowania dynamicznych map pokrycia czasowego 
-        dla pojazdów ratunkowych”, zrealizowanej na Akademii Górniczo-Hutniczej w Krakowie
-        pod opieką dr inż. Michała Lupy.</p>
-      <p>Technologie:<br> Java 8, Maven, Spring, GeoTools, Apache Spark, GeoSpark, OSRM</p>
-      <p><a class="btn btn-outline-dark" href="https://github.com/wrobika/DynamicMap" role="button">Zobacz kod</a></p>
+      <p>Aplikacja umożliwia przeglądanie i wyszukiwanie obiektów na warstwach mapy cyfrowej.
+        Jest częścią projektu „Opracowanie i wdrożenie innowacyjnego 
+        narzędzia ICT dla potrzeb planowania i bieżącego zarządzania terenami zieleni w miastach”
+        realizowanego w ramach programu e-Pionier
+        koordynowanego przez firmę Excento sp. z.o.o.</p>
+      <p>Technologie: <br> C#, .NET Core, OpenLayers, NetTopologySuite, PostGIS, Azure</p>
+      <p><a class="btn btn-outline-dark" href="https://github.com/wrobika/GreenMap" role="button">Zobacz kod</a></p>
     </div>
   </div>
 
@@ -66,13 +64,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="img-fluid w-50 rounded" src="DynamicMap/5wylaczenieDrog.png" alt="First slide">
+          <img class="d-block w-100 rounded" src="img/GreenMap/1.mapa.png" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img class="img-fluid w-50 rounded" src="DynamicMap/2zaznaczaniePojazdow.png" alt="Second slide">
+          <img class="d-block w-100 rounded" src="img/GreenMap/6.szukanie.png" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="img-fluid rounded" src="DynamicMap/4aktualizacjaMapy.png" alt="Third slide">
+          <img class="d-block w-100 rounded" src="img/GreenMap/2.mapa.png" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -94,5 +92,5 @@
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
 </html>
